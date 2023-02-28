@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideSoftAssertions {
 
     @Test
-    void SelenideSoftAssertionsSearch () {
+    void selenideSoftAssertionsSearch () {
 
         open("https://github.com/");
         $("[placeholder='Search GitHub']").setValue("selenide").pressEnter();
